@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="Kirill Persionov — Head of Development, .NET" src="assets/banner-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg?v=2">
+  <img alt="Kirill Persionov — Head of Development, .NET" src="assets/banner-light.svg?v=2" width="100%">
 </picture>
 
 <p align="center">
@@ -22,7 +22,7 @@ Twelve years in .NET: a SQL Server seat at Wildberries in 2014, full-stack at Al
 
 **A self-hosted dev dashboard for ASP.NET Core.** Every HTTP request, EF Core command, `ILogger` record and exception lands in one timeline — grouped by the request that caused it. Three lines to install, one embedded React UI at `/_dashboard`, no agent, no cloud account, nothing leaving your machine.
 
-[![Dashboard](assets/dotnetscope.png)](https://github.com/PersiOnOff/dotnet-scope)
+[![DotNetScope: requests, SQL, logs and exceptions in one live timeline](assets/dotnetscope-demo.gif)](https://github.com/PersiOnOff/dotnet-scope)
 
 It exists because debugging a 500 means asking one question over and over: *“which SQL ran, and what did the log say right before it blew up?”*
 
