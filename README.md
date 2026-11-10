@@ -11,6 +11,8 @@ I'm Kirill, Head of Development at Bioniq and a hands-on full-stack engineer. I 
 
 My work connects engineering leadership with day-to-day delivery: building team processes, making technical decisions, and implementing features myself.
 
+I also lead AI adoption across the company from the ground up: selecting tools, training the team, and building AI-assisted development workflows with human code review and result verification.
+
 ### Core stack
 
 **Backend** — C# · .NET · ASP.NET Core · EF Core
@@ -35,6 +37,8 @@ Reach me on [Telegram](https://t.me/PersiOnOf), by [email](mailto:kspersionov@gm
 ### Руководитель разработки и практикующий full-stack инженер
 
 Я Кирилл, руковожу разработкой в Bioniq и сам пишу код: .NET на бэкенде, React и TypeScript на фронтенде. Участвую в архитектуре, реализую фичи, провожу ревью кода и занимаюсь настройкой и поддержкой CI/CD-пайплайнов.
+
+Также занимаюсь внедрением AI в компании с нуля: выбираю инструменты, обучаю команду и выстраиваю процессы разработки с AI, в которых человек ревьювит код и проверяет результат.
 
 Открыт к обсуждению руководства разработкой, технического лидерства и работы full-stack инженером на .NET-продуктах. Пятигорск, UTC+3 · удалённо.
 
