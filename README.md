@@ -17,9 +17,11 @@ My work connects engineering leadership with day-to-day delivery: building team 
 
 **Frontend** — React · TypeScript · Tailwind CSS
 
-**Data** — SQL Server · SQLite
+**Databases** — PostgreSQL · SQL Server · SQLite
 
-**CI/CD** — GitHub Actions · pipeline setup and maintenance
+**NoSQL & caching** — MongoDB · Redis
+
+**CI/CD** — GitHub Actions · GitLab CI/CD · TeamCity · custom workflows and pipeline automation
 
 ### Let's work together
 
