@@ -1,25 +1,15 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg?v=3">
-  <img alt="Kirill Persionov — Engineering leader & full-stack engineer" src="assets/banner-light.svg?v=3" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg?v=4">
+  <img alt="Kirill Persionov — Engineering leader & full-stack engineer" src="assets/banner-light.svg?v=4" width="100%">
 </picture>
 
 [LinkedIn](https://www.linkedin.com/in/kirill-persionov-ba6b8a9a/) · [Telegram](https://t.me/PersiOnOf) · [Email](mailto:kspersionov@gmail.com)
 
 ## I lead teams. I build software.
 
-I'm Kirill, Head of Development at Bioniq and a hands-on full-stack engineer. I work across .NET backends and React / TypeScript frontends, write code, and stay involved in architecture and code reviews.
+I'm Kirill, Head of Development at Bioniq and a hands-on full-stack engineer. I work across .NET backends and React / TypeScript frontends, write code, and stay involved in architecture, code reviews, and CI/CD pipelines.
 
 My work connects engineering leadership with day-to-day delivery: building team processes, making technical decisions, and implementing features myself.
-
-### Changing how teams deliver
-
-I built the team's Agile processes and introduced AI-assisted development across the company from scratch — selecting tools, training the team, and establishing code review practices.
-
-> **Feature development that previously took 1–2 weeks now takes 1–2 days.**
->
-> AI handles a substantial part of implementation; engineers review the code and verify the results. The shift came from changing the development workflow across the team.
-
-Alongside leading this change, I continue to implement features myself across the backend and frontend.
 
 ### Core stack
 
@@ -27,7 +17,9 @@ Alongside leading this change, I continue to implement features myself across th
 
 **Frontend** — React · TypeScript · Tailwind CSS
 
-**Data & delivery** — SQL Server · SQLite · GitHub Actions
+**Data** — SQL Server · SQLite
+
+**CI/CD** — GitHub Actions · pipeline setup and maintenance
 
 ### Let's work together
 
@@ -40,11 +32,7 @@ Reach me on [Telegram](https://t.me/PersiOnOf), by [email](mailto:kspersionov@gm
 
 ### Руководитель разработки и практикующий full-stack инженер
 
-Я Кирилл, руковожу разработкой в Bioniq и сам пишу код: .NET на бэкенде, React и TypeScript на фронтенде. Участвую в архитектуре, реализую фичи и провожу ревью кода.
-
-Выстроил Agile-процессы команды и с нуля внедрил AI в разработку компании: выбрал инструменты, обучил команду и установил правила проверки кода и результатов.
-
-**Фичи, на которые раньше уходило 1–2 недели, теперь занимают 1–2 дня.** AI выполняет существенную часть реализации, инженеры ревьювят код и проверяют результат. При этом продолжаю сам реализовывать фичи на бэкенде и фронтенде.
+Я Кирилл, руковожу разработкой в Bioniq и сам пишу код: .NET на бэкенде, React и TypeScript на фронтенде. Участвую в архитектуре, реализую фичи, провожу ревью кода и занимаюсь настройкой и поддержкой CI/CD-пайплайнов.
 
 Открыт к обсуждению руководства разработкой, технического лидерства и работы full-stack инженером на .NET-продуктах. Пятигорск, UTC+3 · удалённо.
 

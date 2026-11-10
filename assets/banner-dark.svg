@@ -1,14 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">Kirill Persionov — Engineering leader &amp; full-stack engineer</title>
-  <desc id="desc">Engineering leadership, hands-on development, and AI-assisted delivery.</desc>
-  <rect width="1200" height="260" fill="#0d1117"/>
-  <rect x="48" y="48" width="4" height="152" rx="2" fill="#73c9b5"/>
+  <desc id="desc">Leading teams and writing code. An animated diagram assembles a task into a backend and frontend, reviews the code, and connects the application.</desc>
+  <defs>
+    <radialGradient id="halo"><stop stop-color="#233e3a"/><stop offset="1" stop-color="#0d1117"/></radialGradient>
+    <linearGradient id="scan"><stop stop-color="#73c9b5" stop-opacity="0"/><stop offset="1" stop-color="#73c9b5" stop-opacity=".22"/></linearGradient>
+    <clipPath id="scene"><rect x="744" y="47" width="410" height="260" rx="18"/></clipPath>
+    <style>
+      .task { animation: task 12s ease-in-out infinite; }
+      .backend { animation: backend 12s ease-in-out infinite; }
+      .frontend { animation: frontend 12s ease-in-out infinite; }
+      .links { stroke-dasharray: 220; animation: links 12s ease-in-out infinite; }
+      .code { animation: code 12s ease-in-out infinite; }
+      .review { animation: review 12s ease-in-out infinite; }
+      .ready { animation: ready 12s ease-in-out infinite; }
+      .scan { animation: scan 12s ease-in-out infinite; }
+      @keyframes task { 0%,4% { opacity:0; transform:translateY(8px); } 10%,94% { opacity:1; transform:translateY(0); } 100% { opacity:0; } }
+      @keyframes backend { 0%,14% { opacity:0; transform:translateY(12px); } 24%,94% { opacity:1; transform:translateY(0); } 100% { opacity:0; } }
+      @keyframes frontend { 0%,24% { opacity:0; transform:translateY(12px); } 34%,94% { opacity:1; transform:translateY(0); } 100% { opacity:0; } }
+      @keyframes links { 0%,32% { opacity:0; stroke-dashoffset:220; } 48%,94% { opacity:1; stroke-dashoffset:0; } 100% { opacity:0; stroke-dashoffset:0; } }
+      @keyframes code { 0%,34% { opacity:0; } 46%,94% { opacity:1; } 100% { opacity:0; } }
+      @keyframes scan { 0%,46% { opacity:0; transform:translateX(0); } 49% { opacity:1; } 67% { opacity:1; transform:translateX(390px); } 69%,100% { opacity:0; transform:translateX(390px); } }
+      @keyframes review { 0%,50% { opacity:0; } 56%,94% { opacity:1; } 100% { opacity:0; } }
+      @keyframes ready { 0%,67% { opacity:0; transform:translateY(5px); } 74%,94% { opacity:1; transform:translateY(0); } 100% { opacity:0; } }
+      @media (prefers-reduced-motion: reduce) {
+        .task,.backend,.frontend,.links,.code,.review,.ready { animation:none; opacity:1; transform:none; stroke-dashoffset:0; }
+        .scan { animation:none; opacity:0; }
+      }
+    </style>
+  </defs>
+  <rect width="1200" height="360" rx="20" fill="#0d1117"/>
+  <ellipse cx="950" cy="174" rx="250" ry="175" fill="url(#halo)"/>
   <g font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
-    <text x="80" y="69" fill="#73c9b5" font-size="15" font-weight="600" letter-spacing="2">ENGINEERING LEADER &amp; FULL-STACK ENGINEER</text>
-    <text x="77" y="137" fill="#f0f3f6" font-size="58" font-weight="700" letter-spacing="-2">Kirill Persionov</text>
-    <text x="80" y="180" fill="#9da7b3" font-size="22">Leading teams. Writing code. Improving delivery.</text>
-    <text x="80" y="225" fill="#9da7b3" font-size="15">.NET / React / TypeScript</text>
-    <text x="1152" y="225" text-anchor="end" fill="#73c9b5" font-size="15">AI-assisted development</text>
+    <rect x="48" y="66" width="4" height="214" rx="2" fill="#73c9b5"/>
+    <text x="76" y="88" fill="#73c9b5" font-size="13" font-weight="600" letter-spacing="1.7">ENGINEERING LEADER &amp; FULL-STACK ENGINEER</text>
+    <text x="73" y="155" fill="#f0f3f6" font-size="56" font-weight="700" letter-spacing="-2">Kirill Persionov</text>
+    <text x="76" y="200" fill="#9da7b3" font-size="22">Leading teams. Writing code.</text>
+    <text x="76" y="230" fill="#9da7b3" font-size="22">From architecture to the final detail.</text>
+    <text x="76" y="278" fill="#73c9b5" font-size="15">.NET</text>
+    <text x="127" y="278" fill="#9da7b3" font-size="15">/</text>
+    <text x="146" y="278" fill="#73c9b5" font-size="15">React</text>
+    <text x="202" y="278" fill="#9da7b3" font-size="15">/</text>
+    <text x="221" y="278" fill="#73c9b5" font-size="15">TypeScript</text>
+    <rect x="744" y="47" width="410" height="260" rx="18" fill="#151c25" stroke="#303d49"/>
+    <g class="task">
+      <rect x="866" y="65" width="166" height="35" rx="8" fill="#0d1117" stroke="#303d49"/>
+      <circle cx="885" cy="82" r="4" fill="#73c9b5"/>
+      <text x="900" y="87" fill="#f0f3f6" font-size="13">Build a feature</text>
+    </g>
+    <g class="links" fill="none" stroke="#73c9b5" stroke-width="1.5">
+      <path d="M949 100V116H846V132M949 116H1052V132"/>
+      <path d="M846 224V242H1052V224M949 242V264"/>
+    </g>
+    <g class="backend">
+      <rect x="770" y="132" width="153" height="92" rx="10" fill="#0d1117" stroke="#303d49"/>
+      <text x="786" y="155" fill="#f0f3f6" font-size="13" font-weight="600">Backend</text>
+      <text x="892" y="155" fill="#73c9b5" font-size="12" text-anchor="end">.NET</text>
+      <g class="code" stroke-linecap="round" stroke-width="4">
+        <path d="M787 173H835M846 173H865" stroke="#73c9b5"/>
+        <path d="M797 185H883M797 197H855" stroke="#303d49"/>
+        <path d="M787 209H818" stroke="#73c9b5"/>
+      </g>
+    </g>
+    <g class="frontend">
+      <rect x="976" y="132" width="153" height="92" rx="10" fill="#0d1117" stroke="#303d49"/>
+      <text x="992" y="155" fill="#f0f3f6" font-size="13" font-weight="600">Frontend</text>
+      <g class="code">
+        <rect x="992" y="168" width="121" height="39" rx="4" fill="#151c25" stroke="#303d49"/>
+        <rect x="999" y="175" width="24" height="25" rx="3" fill="#233e3a"/>
+        <path d="M1032 179H1104M1032 188H1083M1032 197H1095" stroke="#73c9b5" stroke-width="3" stroke-linecap="round"/>
+      </g>
+    </g>
+    <g clip-path="url(#scene)"><rect class="scan" x="748" y="122" width="24" height="110" fill="url(#scan)"/></g>
+    <g class="review">
+      <circle cx="949" cy="178" r="14" fill="#233e3a" stroke="#73c9b5"/>
+      <path d="m943 178 4 4 8-9" fill="none" stroke="#73c9b5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="949" y="207" text-anchor="middle" fill="#9da7b3" font-size="10">review</text>
+    </g>
+    <g class="ready">
+      <rect x="873" y="264" width="152" height="27" rx="13.5" fill="#233e3a"/>
+      <circle cx="890" cy="278" r="3" fill="#73c9b5"/>
+      <text x="902" y="282" fill="#73c9b5" font-size="12" font-weight="600">Ready to ship</text>
+    </g>
   </g>
-  <path d="M80 199H1152" stroke="#30363d"/>
 </svg>
